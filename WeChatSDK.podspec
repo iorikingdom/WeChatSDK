@@ -20,3 +20,4 @@ Pod::Spec.new do |s|
     'sqlite3.0',
   ]
 
+end
