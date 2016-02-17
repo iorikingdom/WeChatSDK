@@ -7,6 +7,7 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '4.3'
   s.requires_arc   = true
   s.homepage  = 'http://www.qq.com'
+  s.source           = { :git => "git@github.com:iorikingdom/WeChatSDK.git", :tag => s.version.to_s }
 
   s.vendored_libraries = 'libWeChatSDK.a'
   s.source_files = '*.h'
