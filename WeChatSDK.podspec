@@ -6,7 +6,8 @@ Pod::Spec.new do |s|
   s.authors  = { 'Tencent' => 'developer@wechatapp.com' }
   s.ios.deployment_target = '4.3'
   s.requires_arc   = true
-  
+  s.homepage  = 'http://www.qq.com'
+
   s.vendored_libraries = 'libWeChatSDK.a'
   s.source_files = '*.h'
   s.frameworks = [
